@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { ClienteComponent } from './cliente/cliente.component'
+import { MapComponent } from './map/map.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatSnackBarModule,MatSnackBar } from '@angular/material/snack-bar';
 import { DialogClienteComponent} from './cliente/dialog/dialogcliente.component'
@@ -22,6 +23,7 @@ import { LComponent } from './login/login.component';
     AppComponent,
     HomeComponent,
     ClienteComponent,
+    MapComponent,
     DialogClienteComponent,
     LComponent
   ],

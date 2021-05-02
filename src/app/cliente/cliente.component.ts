@@ -23,10 +23,10 @@ export class ClienteComponent implements OnInit {
      
   }
 
-  ngOnInit(): void {
-    this.getClientes()
-    this.openAdd()
-  }
+    ngOnInit(): void {
+      this.getClientes()
+      this.openAdd()
+    }
 
   getClientes(){
     this.apiCliente.getClientes().subscribe(response   => {
